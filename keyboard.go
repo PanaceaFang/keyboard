@@ -22,7 +22,7 @@ func GetFloat() (float64, error) {
 	if err != nil {
 		return 0, err
 	}
-
+	i++
 	return number, nil
 }
 
